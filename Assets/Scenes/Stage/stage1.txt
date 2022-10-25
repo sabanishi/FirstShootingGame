@@ -1,0 +1,107 @@
+//play 0_0 // 0_0を再生
+ wait 1 // 1秒待つ
+enemy Enemy2 obj Enemy3 ex 80 ey 100 vy 0.03 hp 2 bl_pattern Aim bl_color EnemyShot1 bl_interval 60 bl_speed 0.05 bl_n_way 3 bl_range360 60
+wait 0.5
+loop 2 back 2
+
+wait 1
+enemy Enemy2 obj Enemy3 ex 20 ey 100 vy 0.03 hp 6 bl_pattern Aim bl_color EnemyShot1 bl_interval 60 bl_speed 0.05 bl_n_way 3 bl_range360 60
+wait 0.5
+loop 2 back 2
+
+wait 1
+enemy Enemy2 obj Enemy3 ex 20 ey 0 vy -0.03 hp 6 bl_pattern Aim bl_color EnemyShot2 bl_interval 60 bl_speed 0.05 bl_n_way 3 bl_range360 60
+enemy Enemy2 obj Enemy3 ex 80 ey 0 vy -0.03 hp 6 bl_pattern Aim bl_color EnemyShot2 bl_interval 60 bl_speed 0.05 bl_n_way 3 bl_range360 60
+wait 0.5
+loop 2 back 3
+
+wait 2.5
+enemy Enemy2 obj Enemy1 ex 0 ey 20 vx 0.02 hp 9 bl_pattern Aim bl_color EnemyShot2 bl_interval 30 bl_speed 0.06 bl_n_way 9 bl_range360 360
+wait 0.8
+loop 5 back 2
+
+wait 2.2
+enemy Enemy2 obj Enemy1 ex 100 ey 20 vx -0.02 hp 9 bl_pattern Aim bl_color EnemyShot6 bl_interval 30 bl_speed 0.06 bl_n_way 9 bl_range360 360
+wait 0.8
+loop 5 back 2
+
+wait 5
+enemy Enemy3 obj Enemy1 ex 50 ey 100 vy 0.04 hp 120 bl_pattern Winder bl_color EnemyShot1 bl_interval 3 bl_speed 0.08 bl_n_way 9 bl_rotateSpeed 0.02
+
+wait 15
+enemy Enemy3 obj Enemy1 ex 40 ey 0  vy -0.025 hp 90 bl_pattern Random bl_color EnemyShot7 bl_interval 3 bl_speed 0.02 bl_n_way 1 bl_range360 360
+enemy Enemy3 obj Enemy1 ex 60 ey 0  vy -0.025 hp 90 bl_pattern Random bl_color EnemyShot8 bl_interval 3 bl_speed 0.02 bl_n_way 1 bl_range360 360
+
+wait 15
+
+enemy Boss1 obj Boss1 ex 100 ey 40 vx -0.03 hp 800
+
+stop
+
+wait 2
+enemy Enemy2 obj Enemy1 ex 100 ey 20 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 40 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 20 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 60 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 30 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 10 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 70 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 50 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 80 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 40 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 10 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 100 ey 70 vx -0.02 hp 10 bl_pattern Random bl_color EnemyShot2 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+
+wait 5
+enemy Enemy2 obj Enemy1 ex 0 ey 20 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 40 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 20 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 60 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 30 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 10 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 70 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 50 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 80 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 40 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 10 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+wait 0.8
+enemy Enemy2 obj Enemy1 ex 0 ey 70 vx 0.02 hp 10 bl_pattern Random bl_color EnemyShot5 bl_interval 8 bl_speed 0.035 bl_n_way 1 bl_range360 360
+
+wait 6
+enemy Enemy2 obj Enemy3 ex 50 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 45 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 55 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+wait 1
+enemy Enemy2 obj Enemy3 ex 50 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot1 bl_interval 40 bl_speed 0.05 bl_n_way 6 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 45 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot1 bl_interval 40 bl_speed 0.05 bl_n_way 6 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 55 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot1 bl_interval 40 bl_speed 0.05 bl_n_way 6 bl_range360 120
+wait 1
+
+enemy Enemy2 obj Enemy3 ex 50 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 45 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+enemy Enemy2 obj Enemy3 ex 55 ey 0 vy -0.02 hp 10 bl_pattern Aim bl_color EnemyShot7 bl_interval 40 bl_speed 0.04 bl_n_way 5 bl_range360 120
+
+wait 10
+
+enemy Boss2 obj Boss2 ex 50 ey 0 vy -0.03 hp 1000
